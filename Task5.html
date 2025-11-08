@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model Challenge</title>
+  <style>
+    /* Reset default margin/padding */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header: Full width */
+    header {
+      width: 100%;
+      background-color: #2e6657;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Main Content: 80% width and centered */
+    main {
+      width: 80%;
+      margin: 20px auto; /* auto centers horizontally */
+      padding: 20px;
+      border: 2px solid #2e6657;
+      background-color: #f9f9f9;
+      box-sizing: border-box; /* includes padding/border in width */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Our New Product</h1>
+  </header>
+
+  <main>
+    <h2>About the Product</h2>
+    <p>
+      This is where the product details will go. The content section is 
+      formatted to be 80% of the viewport width and centered using margins.
+    </p>
+  </main>
+
+</body>
+</html>

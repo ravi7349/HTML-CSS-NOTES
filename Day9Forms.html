@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Courcse regirstraion form</h1>
+    <form>
+   <fieldset>
+    <legend>Personal Details</legend>
+        <label >First Name</label> <input type="text" name="FN" placeholder="Ex:Rohit" size="15" > <br>
+        <label>SurName</label> <input type="text" name ="SN" placeholder="Ex:Ravinder" size="15"><br>
+        <label>Mobile Number</label> <input type="tel"  name= "Mob" placeholder="987-9879-343" size="15"><br>
+        <label>Email</label> <input type="email" name="Email" placeholder="Ravi@gmail.com" size="15"> <br>
+        <label>Password</label> <input type="password" name="Password" placeholder="Min 5 charecter"><br>
+        <label> COnfirm Password</label> <input type="password" name="COnfirm password" placeholder="Min 5 chareter"> <br>
+        <label>DOB</label> <input type="date" name="Dob"> <br>
+        <label>Gender</label> <input type="radio" name="Gender" value="M">Male     <label>Gender</label> <input type="radio" name="Gender" value="F">Female     <label>Gender</label> <input type="radio" name="Gender" value="C">Custom <br>
+        <label>Select Country</label> 
+        <select>
+            <option value="India">India</option>
+            <option value="Usa">Usa</option>
+            <option value="China">China</option>
+        </select> <br>
+        <label>Upload Picture</label> <input type="file" name="File"><br>
+        <input type="reset">
+   </fieldset>
+
+   <fieldset>
+  <legend>Course Details</legend>
+  <label>Select course</label>
+  <select>
+    <option value="PFS">Python Full Stack</option>
+    <option value="JFS">Java Full Stack</option>
+    <option value="cfs">C# Full Stack</option>
+  </select><br>
+
+  <label>Delivery Mode</label> 
+  <input type="checkbox" name="Mode1" value="ON"> Online
+  <input type="checkbox" name="Mode3" value="Both"> offline/online
+  <input type="checkbox" name="Mode2" value="Off"> Offline <br>
+
+  <label >Comments</label><br>
+  <textarea rows="40" cols="40">  </textarea>
+</fieldset>
+<img src="data:image/jpeg;base64,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" height="75" >
+
+    </form>
+</body>
+</html>
+
+<input type="checkbox"> 
+
+<!-- ✅ Checkbox
+
+Used when you want to select more than one option.
+
+You can tick (✔️) or untick each box.
+
+<input type="checkbox" id="music" name="hobby" value="music">
+<label for="music">Music</label>
+
+l
+Example: Choosing multiple hobbies. -->
+
+<!-- 
+🔘 Radio Button
+
+Used when you want to choose only one option from a group.
+
+If you select another one, the previous gets unselected automatically.
+<input type="radio" id="valueName" name="groupName" value="optionValue">
+<label for="valueName">Label Text</label>
+
+Example: Choosing gender or payment method. -->
+
+
+<!-- Dropdown List (or Select Box) in HTML.
+
+💡 Explanation:
+
+<label> → gives a name or title to the dropdown.
+
+<select> → creates the dropdown menu itself.
+
+    <label for="city">Choose a city:</label>
+<select id="city" name="city">
+  <option value="bangalore">Bangalore</option>
+  <option value="delhi">Delhi</option>
+  <option value="mumbai">Mumbai</option>
+</select> -->

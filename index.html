@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sample Portfolio - Your Name</title>
+  <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">YourName</a>
+      <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false">Menu</button>
+      <nav id="main-nav" class="site-nav" hidden>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Hi, I’m Your Name</h1>
+        <p>Front-end developer building accessible, fast, and beautiful web experiences.</p>
+        <p><a class="btn" href="#projects">See my work</a></p>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About me</h2>
+      <p>I’m a web developer with a passion for clean design and simple interactions. I enjoy building UIs, learning new tech, and collaborating on meaningful projects.</p>
+      <ul class="skills">
+        <li>HTML &amp; CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Accessibility</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2>Selected Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="https://via.placeholder.com/600x340?text=Project+1" alt="Project 1 screenshot">
+          <h3>Project One</h3>
+          <p>Short description of the project, the problem it solves, and technologies used.</p>
+          <p><a class="btn" href="#">View Project</a></p>
+        </article>
+        <article class="card">
+          <img src="https://via.placeholder.com/600x340?text=Project+2" alt="Project 2 screenshot">
+          <h3>Project Two</h3>
+          <p>Short description of the project, the problem it solves, and technologies used.</p>
+          <p><a class="btn" href="#">View Project</a></p>
+        </article>
+        <article class="card">
+          <img src="https://via.placeholder.com/600x340?text=Project+3" alt="Project 3 screenshot">
+          <h3>Project Three</h3>
+          <p>Short description of the project, the problem it solves, and technologies used.</p>
+          <p><a class="btn" href="#">View Project</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>If you'd like to work together, send a message.</p>
+      <form id="contact-form" novalidate>
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+        <p><button class="btn" type="submit">Send</button></p>
+        <p id="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Your Name — <a href="#">Privacy</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
